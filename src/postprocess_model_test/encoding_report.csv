@@ -1,0 +1,3 @@
+file_path,original_encoding,decoding_used,target_encoding,status,error,size_bytes
+/Users/issol/Documents/KU/2-2/기계학습/프로젝트/데이터셋/행사데이터 위경도/7.서울교통공사_1-8호선 지하철역 위경도 좌표정보_20230307.csv,utf-8,utf-8,utf-8,already_utf8,,14614
+/Users/issol/Documents/KU/2-2/기계학습/프로젝트/데이터셋/행사데이터 위경도/서울시 문화행사 정보.csv,cp949,,utf-8,error,UnicodeDecodeError using utf-8: 'utf-8' codec can't decode byte 0xba in position 1: invalid start byte,3117059
