@@ -1,0 +1,14 @@
+{
+  "experiment": "V5_Feature_Ablation",
+  "test_size": 0.2,
+  "feature_groups": {
+    "lag": 36,
+    "time": 22,
+    "weather": 26,
+    "event": 13,
+    "interaction": 4,
+    "location": 4,
+    "other": 9
+  },
+  "timestamp": "2025-11-27T10:51:13.010744"
+}

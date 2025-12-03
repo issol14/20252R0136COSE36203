@@ -1,0 +1,24 @@
+{
+  "name": "V4_NoLag_Enhanced_LightGBM",
+  "version": "v4",
+  "description": "Lag/Rolling 완전 제외, Target Encoding + 역사적 통계로 대체",
+  "target": "net_passengers",
+  "test_size": 0.2,
+  "random_state": 42,
+  "hyperparameters": {
+    "n_estimators": 1500,
+    "learning_rate": 0.03,
+    "num_leaves": 127,
+    "max_depth": 15,
+    "min_child_samples": 20,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "reg_alpha": 0.1,
+    "reg_lambda": 0.1,
+    "n_jobs": -1,
+    "verbose": -1,
+    "random_state": 42
+  },
+  "feature_count": 104,
+  "timestamp": "2025-11-27T11:26:36.135992"
+}
