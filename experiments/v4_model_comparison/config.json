@@ -1,0 +1,14 @@
+{
+  "experiment": "V4_Model_Comparison",
+  "n_splits": 5,
+  "sample_size": 150000,
+  "n_features": 114,
+  "models": [
+    "LightGBM",
+    "XGBoost",
+    "RandomForest",
+    "GradientBoosting",
+    "CatBoost"
+  ],
+  "timestamp": "2025-11-27T11:45:04.570226"
+}
